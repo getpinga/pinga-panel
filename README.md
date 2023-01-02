@@ -32,7 +32,23 @@ Some of the key features of Pinga include:
 
 To get started with Pinga, simply download the latest release from Github and follow the installation instructions in the documentation. Whether you are a seasoned web developer or just starting out, Pinga is the perfect choice for building modern, professional web applications.
 
-## Installation instructions
+## Support for Swoole
+
+Swoole is a high-performance PHP networking extension that can greatly improve the speed and performance of your web applications. It is often used in conjunction with PHP frameworks like Pinga to enable real-time communication and asynchronous processing, which can be useful in a variety of scenarios, including:
+
+* Real-time chat and messaging systems
+
+* Online gaming and multiplayer applications
+
+* Data streaming and event-driven applications
+
+* Job queues and task scheduling
+
+* Server-side rendering of dynamic web pages
+
+By using Swoole, Pinga already integrates powerful asynchronous programming capabilities into your web applications, allowing you to create fast and responsive applications with real-time communication, server-side rendering of dynamic web pages, and much more.
+
+# Installation instructions
 
 To install the Pinga PHP framework, follow these steps:
 
