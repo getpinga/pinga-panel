@@ -35,7 +35,7 @@ Some of the key features of Pinga include:
 **Database Replication:** Database replication thanks to MariaDB Galera Replication or [php-mysql-replication](https://github.com/Gemini-D/php-mysql-replication)
 
 **Fast router:** Quickly and easily route requests to the appropriate handler, built on top of [simple-router
-](https://github.com/skipperbent/simple-php-router). You can also use [bramus/router](https://github.com/bramus/router) or [AltoRouter](https://altorouter.com/)
+](https://github.com/skipperbent/simple-php-router) / [simple-router-fork](https://github.com/DeveloperMarius/simple-php-router). You can also use [bramus/router](https://github.com/bramus/router) or [AltoRouter](https://altorouter.com/)
 
 **Load balancing:** Load balancing for your apps via [pdoload](https://github.com/gonzie/pdoload)
 
