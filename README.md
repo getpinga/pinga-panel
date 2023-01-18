@@ -28,7 +28,7 @@ Some of the key features of Pinga include:
 
 **Backup system:** Protect your data with regular backups, thanks to [PHPBU](https://phpbu.de/) or [Restic](https://restic.net/)
 
-**Database ORM:** Simplify database management and querying, using [PHP-DB](https://github.com/delight-im/PHP-DB) or [PUDL](https://pudl.dev/) or (CompositePHP)[https://github.com/compositephp/db]
+**Database ORM:** Simplify database management and querying, using [PHP-DB](https://github.com/delight-im/PHP-DB) or [PUDL](https://pudl.dev/) or [CompositePHP](https://github.com/compositephp/db)
 
 **Database Replication:** Database replication thanks to MariaDB Galera Replication or [php-mysql-replication](https://github.com/Gemini-D/php-mysql-replication)
 
@@ -36,6 +36,8 @@ Some of the key features of Pinga include:
 ](https://github.com/skipperbent/simple-php-router)
 
 **Load balancing:** Load balancing for your apps via [pdoload](https://github.com/gonzie/pdoload)
+
+**Machine learning/AI:** Soon we will support systems like [Jina AI](https://jina.ai/) or [MindsDB](https://mindsdb.com/)
 
 **Templating engine:** Powerful and easy-to-use PHP templating engine for creating dynamic and customizable views for your web application, built on top of [Plates](https://github.com/thephpleague/plates)
 
@@ -58,6 +60,8 @@ Swoole is a high-performance PHP networking extension that can greatly improve t
 * Server-side rendering of dynamic web pages
 
 By using Swoole, Pinga already integrates powerful asynchronous programming capabilities into your web applications, allowing you to create fast and responsive applications with real-time communication, server-side rendering of dynamic web pages, and much more.
+
+We also use [SMProxy](https://github.com/louislivi/SMProxy)
 
 # Installation instructions
 
