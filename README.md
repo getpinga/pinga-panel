@@ -28,7 +28,7 @@ Some of the key features of Pinga include:
 
 **Backup system:** Protect your data with regular backups, thanks to [PHPBU](https://phpbu.de/) or [Restic](https://restic.net/)
 
-**Database ORM:** Simplify database management and querying, using [PHP-DB](https://github.com/delight-im/PHP-DB) or [PUDL](https://pudl.dev/)
+**Database ORM:** Simplify database management and querying, using [PHP-DB](https://github.com/delight-im/PHP-DB) or [PUDL](https://pudl.dev/) or (CompositePHP)[https://github.com/compositephp/db]
 
 **Database Replication:** Database replication thanks to MariaDB Galera Replication or [php-mysql-replication](https://github.com/Gemini-D/php-mysql-replication)
 
