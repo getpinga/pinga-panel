@@ -24,9 +24,11 @@ Some of the key features of Pinga include:
 
 **Payment providers:** Integrate with popular payment gateways, with a library based on [Utopia Pay](https://github.com/utopia-php/pay)
 
-**Backup system:** Protect your data with regular backups, thanks to [PHPBU](https://phpbu.de/)
+**Backup system:** Protect your data with regular backups, thanks to [PHPBU](https://phpbu.de/) or [Restic](https://restic.net/)
 
 **Database ORM:** Simplify database management and querying, using [PHP-DB](https://github.com/delight-im/PHP-DB)
+
+**Database Replication:** Database replication thanks to MariaDB Galera Replication or [php-mysql-replication](https://github.com/Gemini-D/php-mysql-replication)
 
 **Fast router:** Quickly and easily route requests to the appropriate handler, built on top of [simple-router
 ](https://github.com/skipperbent/simple-php-router)
