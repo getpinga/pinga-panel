@@ -18,20 +18,24 @@ Some of the key features of Pinga include:
 
 **Messaging system:** Communicate with users and send notifications, thanks to [Utopia Messaging](https://github.com/utopia-php/messaging)
 
-**Two factor authentication:** Add an extra layer of security to your login process, using [robthree/twofactorauth](https://github.com/robthree/twofactorauth) as a base
+**Two factor authentication:** Add an extra layer of security to your login process, using [robthree/twofactorauth](https://github.com/robthree/twofactorauth) or [Authy](https://github.com/rinvex/authy)
 
 **Logger:** Keep track of errors and debugging information with the help of [Monolog](https://github.com/Seldaek/monolog)
+
+**Cache:** Make your app faster thanks to [Utopia Cache](https://github.com/utopia-php/cache) or [Phpfastcache](https://www.phpfastcache.com/)
 
 **Payment providers:** Integrate with popular payment gateways, with a library based on [Utopia Pay](https://github.com/utopia-php/pay)
 
 **Backup system:** Protect your data with regular backups, thanks to [PHPBU](https://phpbu.de/) or [Restic](https://restic.net/)
 
-**Database ORM:** Simplify database management and querying, using [PHP-DB](https://github.com/delight-im/PHP-DB)
+**Database ORM:** Simplify database management and querying, using [PHP-DB](https://github.com/delight-im/PHP-DB) or [PUDL](https://pudl.dev/)
 
 **Database Replication:** Database replication thanks to MariaDB Galera Replication or [php-mysql-replication](https://github.com/Gemini-D/php-mysql-replication)
 
 **Fast router:** Quickly and easily route requests to the appropriate handler, built on top of [simple-router
 ](https://github.com/skipperbent/simple-php-router)
+
+**Load balancing:** Load balancing for your apps via [pdoload](https://github.com/gonzie/pdoload)
 
 **Templating engine:** Powerful and easy-to-use PHP templating engine for creating dynamic and customizable views for your web application, built on top of [Plates](https://github.com/thephpleague/plates)
 
