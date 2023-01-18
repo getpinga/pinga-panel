@@ -30,6 +30,8 @@ Some of the key features of Pinga include:
 
 **Database ORM:** Simplify database management and querying, using [PHP-DB](https://github.com/delight-im/PHP-DB) or [PUDL](https://pudl.dev/) or [CompositePHP](https://github.com/compositephp/db)
 
+**Database Optimizer:** [soar-php](https://github.com/guanguans/soar-php)
+
 **Database Replication:** Database replication thanks to MariaDB Galera Replication or [php-mysql-replication](https://github.com/Gemini-D/php-mysql-replication)
 
 **Fast router:** Quickly and easily route requests to the appropriate handler, built on top of [simple-router
