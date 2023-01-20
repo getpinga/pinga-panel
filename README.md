@@ -8,7 +8,7 @@ Pinga is a modern, easy-to-use PHP framework designed to streamline web developm
 
 Some of the key features of Pinga include:
 
-**User login panel:** Pinga's user login panel is a powerful and user-friendly tool for implementing a secure login system for your web application, based on a modified version of [PHP-Auth](https://github.com/delight-im/PHP-Auth). It allows you to easily customize the login process to suit your specific needs and provides a comprehensive user permission system for controlling access to different parts of your application. With Pinga's streamlined sign-up process, you can quickly and easily add new users to your application. In addition, Pinga's user impersonation feature allows you to easily debug and test your application by impersonating different users. This saves you time and helps ensure the quality of your application
+**[User login panel](https://github.com/getpinga/pinga-auth):** Powerful and user-friendly tool for implementing a secure login system for your web application. It allows you to easily customize the login process to suit your specific needs and provides a comprehensive user permission system for controlling access to different parts of your application. With Pinga's streamlined sign-up process, you can quickly and easily add new users to your application. In addition, Pinga's user impersonation feature allows you to easily debug and test your application by impersonating different users. This saves you time and helps ensure the quality of your application
 
 **Audit log:** Keep track of your web application's activity, based on [Utopia Audit](https://github.com/utopia-php/audit)
 
