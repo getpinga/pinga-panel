@@ -6,7 +6,25 @@
 
 Pinga is a modern, easy-to-use PHP framework designed to streamline web development and make it accessible to everyone. With Pinga, you can easily build powerful web applications using a variety of user-friendly components and features.
 
-Some of the key features of Pinga include:
+## Initial set of components
+
+[Router](https://github.com/getpinga/router)
+
+[DB](https://github.com/getpinga/db)
+
+[Auth](https://github.com/getpinga/auth)
+
+[HTTP](https://github.com/getpinga/http)
+
+[Base64](https://github.com/getpinga/base64)
+
+[Cookie](https://github.com/getpinga/cookie)
+
+[Templates](https://github.com/thephpleague/plates) / external component
+
+### Planned features
+
+Some of the planned key features of Pinga include:
 
 **[User login panel](https://github.com/getpinga/pinga-auth):** Powerful and user-friendly tool for implementing a secure login system for your web application. It allows you to easily customize the login process to suit your specific needs and provides a comprehensive user permission system for controlling access to different parts of your application. With Pinga's streamlined sign-up process, you can quickly and easily add new users to your application. In addition, Pinga's user impersonation feature allows you to easily debug and test your application by impersonating different users. This saves you time and helps ensure the quality of your application
 
