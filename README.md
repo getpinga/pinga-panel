@@ -8,23 +8,23 @@ The Pinga PHP framework offers a collection of tested third-party tools for buil
 
 ## Initial set of components
 
-Router: phpleague/route
+***Router:*** [phpleague/route](https://packagist.org/packages/league/route)
 
-Auth: pinga/auth
+***Auth:*** [pinga/auth](https://packagist.org/packages/pinga/auth)
 
-User Audit: utopia-php/audit
+***User Audit:*** [utopia-php/audit](https://packagist.org/packages/utopia-php/audit)
 
-DB: pinga/db. Swoole: scrawler-labs/arca-orm or Swoole\Coroutine\MySQL|PostgreSQL. Swow: PDO
+***DB:*** [pinga/db](https://packagist.org/packages/pinga/db). **Swoole:** [scrawler-labs/arca-orm](https://packagist.org/packages/scrawler/arca) or Swoole\Coroutine\MySQL|PostgreSQL. Swow: PDO
 
-DB Optimizer: guanguans/soar-php
+***DB Optimizer:*** [guanguans/soar-php](https://packagist.org/packages/guanguans/soar-php)
 
-DB Replication: native DB or gemini/php-mysql-replication
+***DB Replication:*** native DB or [gemini/php-mysql-replication](https://packagist.org/packages/gemini/php-mysql-replication)
 
-DB Audit: setbased/php-audit
+***DB Audit:*** [setbased/php-audit](https://packagist.org/packages/setbased/php-audit)
 
-DB Pagination: ozdemir/datatables | lazymofo/datagrid
+***DB Pagination:*** [ozdemir/datatables](https://packagist.org/packages/ozdemir/datatables) | [lazymofo/datagrid](https://github.com/lazymofo/datagrid)
 
-Templates: league/plates
+***Templates:*** [league/plates](https://packagist.org/packages/league/plates)
 
 Logging: monolog/monolog|WyriHaximus/php-monolog-formatted-psr-handler
 
