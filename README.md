@@ -24,9 +24,15 @@ Pinga is a modern, easy-to-use PHP framework designed to streamline web developm
 
 ### Planned features
 
-Some of the planned key features of Pinga include:
+**Fast router:** Quickly and easily route requests to the appropriate handler using pinga/router or league/route
 
-**[User login panel](https://github.com/getpinga/pinga-auth):** Powerful and user-friendly tool for implementing a secure login system for your web application. It allows you to easily customize the login process to suit your specific needs and provides a comprehensive user permission system for controlling access to different parts of your application. With Pinga's streamlined sign-up process, you can quickly and easily add new users to your application. In addition, Pinga's user impersonation feature allows you to easily debug and test your application by impersonating different users. This saves you time and helps ensure the quality of your application
+**[Authentication](https://github.com/getpinga/auth):** Powerful and user-friendly tool for implementing a secure login system for your web application. It allows you to easily customize the login process to suit your specific needs and provides a comprehensive user permission system for controlling access to different parts of your application. With Pinga's streamlined sign-up process, you can quickly and easily add new users to your application. In addition, Pinga's user impersonation feature allows you to easily debug and test your application by impersonating different users. This saves you time and helps ensure the quality of your application
+
+**Database ORM:** Simplify database management and querying, using [pinga/db](https://github.com/getpinga/db)
+
+**Database Optimizer:** [soar-php](https://github.com/guanguans/soar-php)
+
+**Database Replication:** Database replication thanks to MariaDB Galera Replication or [php-mysql-replication](https://github.com/Gemini-D/php-mysql-replication)
 
 **Audit log:** Keep track of your web application's activity, based on [Utopia Audit](https://github.com/utopia-php/audit)
 
@@ -46,14 +52,11 @@ Some of the planned key features of Pinga include:
 
 **Backup system:** Protect your data with regular backups, thanks to [PHPBU](https://phpbu.de/) or [Restic](https://restic.net/)
 
-**Database ORM:** Simplify database management and querying, using [PHP-DB](https://github.com/delight-im/PHP-DB) or [PUDL](https://pudl.dev/) or [CompositePHP](https://github.com/compositephp/db)
 
-**Database Optimizer:** [soar-php](https://github.com/guanguans/soar-php)
 
-**Database Replication:** Database replication thanks to MariaDB Galera Replication or [php-mysql-replication](https://github.com/Gemini-D/php-mysql-replication)
 
-**Fast router:** Quickly and easily route requests to the appropriate handler, built on top of [simple-router
-](https://github.com/skipperbent/simple-php-router) / [simple-router-fork](https://github.com/DeveloperMarius/simple-php-router). You can also use [bramus/router](https://github.com/bramus/router) or [AltoRouter](https://altorouter.com/)
+
+
 
 **Load balancing:** Load balancing for your apps via [pdoload](https://github.com/gonzie/pdoload)
 
