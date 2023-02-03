@@ -4,96 +4,74 @@
 
 [![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
 
-Pinga is a modern, easy-to-use PHP framework designed to streamline web development and make it accessible to everyone. With Pinga, you can easily build powerful web applications using a variety of user-friendly components and features.
+The Pinga PHP framework offers a collection of tested third-party tools for building robust and scalable web applications or APIs. Designed for streamlined and efficient development, it allows for a focus on project functionality and user experience. Rigorously tested for quality and reliability, this framework is suitable for simple to complex projects.
 
 ## Initial set of components
 
-[Router](https://github.com/getpinga/router)
+Router: phpleague/route
 
-[DB](https://github.com/getpinga/db)
+Auth: pinga/auth
 
-[Auth](https://github.com/getpinga/auth)
+User Audit: utopia-php/audit
 
-[HTTP](https://github.com/getpinga/http)
+DB: pinga/db. Swoole: scrawler-labs/arca-orm or Swoole\Coroutine\MySQL|PostgreSQL. Swow: PDO
 
-[Base64](https://github.com/getpinga/base64)
+DB Optimizer: guanguans/soar-php
 
-[Cookie](https://github.com/getpinga/cookie)
+DB Replication: native DB or gemini/php-mysql-replication
 
-[Templates](https://github.com/thephpleague/plates) / external component
+DB Audit: setbased/php-audit
 
-### Planned features
+DB Pagination: ozdemir/datatables | lazymofo/datagrid
 
-**Fast router:** Quickly and easily route requests to the appropriate handler using pinga/router or league/route
+Templates: league/plates
 
-**[Authentication](https://github.com/getpinga/auth):** Powerful and user-friendly tool for implementing a secure login system for your web application. It allows you to easily customize the login process to suit your specific needs and provides a comprehensive user permission system for controlling access to different parts of your application. With Pinga's streamlined sign-up process, you can quickly and easily add new users to your application. In addition, Pinga's user impersonation feature allows you to easily debug and test your application by impersonating different users. This saves you time and helps ensure the quality of your application
+Logging: monolog/monolog|WyriHaximus/php-monolog-formatted-psr-handler
 
-**Database ORM:** Simplify database management and querying, using [pinga/db](https://github.com/getpinga/db)
+DI: PHP-DI or pimple/pimple
 
-**Database Optimizer:** [soar-php](https://github.com/guanguans/soar-php)
+PSR-7/17: nyholm/psr7
 
-**Database Replication:** Database replication thanks to MariaDB Galera Replication or [php-mysql-replication](https://github.com/Gemini-D/php-mysql-replication)
+Session: pinga/cookie | compwright/php-session
 
-**Audit log:** Keep track of your web application's activity, based on [Utopia Audit](https://github.com/utopia-php/audit)
+Cookies: pinga/cookie | dflydev/dflydev-(encrypted-)fig-cookies
 
-**Database history generation:** Ensure data integrity and version control, with the great help of [PhpAudit](https://github.com/SetBased/php-audit)
+Cache: kodus/file-cache | matthiasmullie/scrapbook | scrawler/swoole-cache | phoole/cache
 
-**Datatables server pagination:** Efficiently handle large amounts of data with the help of [DataTables](https://datatables.net/) and [n1crack/datatables](https://github.com/n1crack/datatables)
+Translation: utopia-php/locale or delight-im/i18n
 
-**Messaging system:** Communicate with users and send notifications, thanks to [Utopia Messaging](https://github.com/utopia-php/messaging)
+Payment: league/omnipay | utopia-php/pay
 
-**Two factor authentication:** Add an extra layer of security to your login process, using [robthree/twofactorauth](https://github.com/robthree/twofactorauth) or [Authy](https://github.com/rinvex/authy)
+Messaging: utopia-php/messaging
 
-**Logger:** Keep track of errors and debugging information with the help of [Monolog](https://github.com/Seldaek/monolog)
+Dispatcher: leocavalcante/dispatch
 
-**Cache:** Make your app faster thanks to [Utopia Cache](https://github.com/utopia-php/cache) or [Phpfastcache](https://www.phpfastcache.com/)
+Storage: league/flysystem
 
-**Payment providers:** Integrate with popular payment gateways, with a library based on [Utopia Pay](https://github.com/utopia-php/pay)
+Data validation: wixel/gump
 
-**Backup system:** Protect your data with regular backups, thanks to [PHPBU](https://phpbu.de/) or [Restic](https://restic.net/)
+Configuration files: vlucas/phpdotenv
 
+2FA: robthree/twofactorauth
 
+Load balancing: gonzie/pdoload
 
+Benchmark: eypsilon/MycroBench or phpbench/phpbench
 
+Coding Standards: PHP CS | PHP Stan
 
+Backup: PHPBU | Restic
 
+Tests: https://pestphp.com/
 
-**Load balancing:** Load balancing for your apps via [pdoload](https://github.com/gonzie/pdoload)
+SSL: https://acmephp.github.io/
 
-**Machine learning/AI:** Soon we will support systems like [Jina AI](https://jina.ai/) or [MindsDB](https://mindsdb.com/)
+Menu: spatie/menu
 
-**Templating engine:** Powerful and easy-to-use PHP templating engine for creating dynamic and customizable views for your web application, built on top of [Plates](https://github.com/thephpleague/plates)
+Form: jarzon/form
 
-**Admin panel UI:** Beautiful and intuitive admin panel UI crafted by [Tabler](https://tabler.io/)
+KYC: ballerine.com
 
-To get started with Pinga, simply download the latest release from Github and follow the installation instructions in the documentation. Whether you are a seasoned web developer or just starting out, Pinga is the perfect choice for building modern, professional web applications.
+Admin UI: Tabler
 
-## Support for Swoole
-
-Swoole is a high-performance PHP networking extension that can greatly improve the speed and performance of your web applications. It is often used in conjunction with PHP frameworks like Pinga to enable real-time communication and asynchronous processing, which can be useful in a variety of scenarios, including:
-
-* Real-time chat and messaging systems
-
-* Online gaming and multiplayer applications
-
-* Data streaming and event-driven applications
-
-* Job queues and task scheduling
-
-* Server-side rendering of dynamic web pages
-
-By using Swoole, Pinga already integrates powerful asynchronous programming capabilities into your web applications, allowing you to create fast and responsive applications with real-time communication, server-side rendering of dynamic web pages, and much more.
-
-We also use [SMProxy](https://github.com/louislivi/SMProxy)
-
-# Installation instructions
-
-To install the Pinga PHP framework, follow these steps:
-
-1. Open a terminal or command prompt and navigate to the directory where you want to build your project.
-
-2. Run the following command: ```composer require getpinga/pinga```
-
-3. Wait for the installation to complete.
-
-That's it! You can now start using the Pinga framework to build your web application. For more information on how to use Pinga, refer to the documentation and examples provided with the framework.
+Machine Learning: MindsDB
