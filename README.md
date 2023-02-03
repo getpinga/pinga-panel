@@ -60,18 +60,18 @@ Benchmark: eypsilon/MycroBench or phpbench/phpbench
 
 Coding Standards: PHP CS | PHP Stan
 
-Backup: PHPBU | Restic
+**Backup:** [PHPBU](https://phpbu.de/) | [Restic](https://restic.net/)
 
-Tests: https://pestphp.com/
+**Tests:** [Pest](https://pestphp.com/)
 
-SSL: https://acmephp.github.io/
+**SSL Management:** [Acme PHP](https://acmephp.github.io/)
 
-Menu: spatie/menu
+**Menu:** [spatie/menu](https://packagist.org/packages/spatie/menu)
 
-Form: jarzon/form
+**Forms:** [jarzon/form](https://packagist.org/packages/jarzon/form)
 
-KYC: ballerine.com
+**KYC:** [Ballerine](https://github.com/ballerine-io/ballerine)
 
-Admin UI: Tabler
+**Admin UI:** [Tabler](https://github.com/tabler/tabler)
 
 Machine Learning: MindsDB
