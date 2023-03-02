@@ -75,3 +75,11 @@ Coding Standards: PHP CS | PHP Stan
 **Admin UI:** [Tabler](https://github.com/tabler/tabler)
 
 Machine Learning: MindsDB
+
+### Installation
+
+1. Use installDB.php script to install the database.
+
+2. Move env-sample to .env and configure.
+
+3. Download Tabler's dist folder into /public/assets
