@@ -4,6 +4,8 @@ use App\Controllers\Auth\PasswordController;
 use App\Controllers\HomeController;
 use App\Middleware\AuthMiddleware;
 use App\Middleware\GuestMiddleware;
+use Slim\Exception\HttpNotFoundException;
+use Nyholm\Psr7\Response;
 
 $app->get('/', HomeController::class .':index')->setName('index');
 
@@ -32,5 +34,12 @@ $app->group('', function ($route) {
     $route->post('/change-password', PasswordController::class . ':changePassword');
 })->add(new AuthMiddleware($container));
 
-
-
+$app->add(function (Nyholm\Psr7\ServerRequest $request, Psr\Http\Server\RequestHandlerInterface $handler) {
+    try {
+        return $handler->handle($request);
+    } catch (HttpNotFoundException $e) {
+        $response = new Response();
+        $response->getBody()->write('404 Not Found');
+        return $response->withStatus(404);
+    }
+});
