@@ -179,10 +179,17 @@ $http->on(
         /**
          * merge your psr response with swoole response
          */
-        $responseMerger->toSwoole(
-            $psrResponse,
-            $swooleResponse
-        )->end();
+		$response = $responseMerger->toSwoole(
+			$psrResponse,
+			$swooleResponse
+		);
+
+		if ($response->isWritable()) {
+			$response->end();
+		} else {
+			// throw a generic exception
+			throw new RuntimeException('HTTP response is not available');
+		}
     }
 );
 
