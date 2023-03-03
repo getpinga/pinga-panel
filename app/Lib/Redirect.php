@@ -39,29 +39,29 @@ class Redirect
         return $this;
     }
 
-    /*public function redirect()
-    {
-        if (headers_sent() === false)
-        {
-            header('Location: ' . $this->name, true, $this->status);
-            exit;
-        }
-        exit('window.location.replace("'.$this->name.'");');
-    }*/
-    
-    public function redirect()
-    {
-        if (!$this->response->isSent()) {
-            $this->response = $this->response
-                ->withHeader('Location', $this->name)
-                ->withStatus($this->status);
-        } else {
-            $this->response->getBody()->write(
-                sprintf('<script>window.location.replace("%s");</script>', $this->name)
-            );
-        }
-        return $this->response;
-    }
+	public function redirect()
+	{
+		if (function_exists('swoole_version')) {
+			// Running in Swoole
+			if (!$this->response->isSent()) {
+				$this->response = $this->response
+					->withHeader('Location', $this->name)
+					->withStatus($this->status);
+			} else {
+				$this->response->getBody()->write(
+					sprintf('<script>window.location.replace("%s");</script>', $this->name)
+				);
+			}
+			return $this->response;
+		} else {
+			// Running in nginx
+			if (headers_sent() === false) {
+				header('Location: ' . $this->name, true, $this->status);
+				exit;
+			}
+			exit('window.location.replace("' . $this->name . '");');
+		}
+	}
     
 }
 
