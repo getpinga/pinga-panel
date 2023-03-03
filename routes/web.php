@@ -34,7 +34,7 @@ $app->group('', function ($route) {
     $route->post('/change-password', PasswordController::class . ':changePassword');
 })->add(new AuthMiddleware($container));
 
-$app->add(function (Nyholm\Psr7\ServerRequest $request, Psr\Http\Server\RequestHandlerInterface $handler) {
+$app->add(function (Psr\Http\Message\ServerRequestInterface $request, Psr\Http\Server\RequestHandlerInterface $handler) {
     try {
         return $handler->handle($request);
     } catch (HttpNotFoundException $e) {
