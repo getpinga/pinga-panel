@@ -82,8 +82,6 @@ Machine Learning: MindsDB
 
 2. Move env-sample to .env and configure.
 
-3. Download Tabler's dist folder into /public/assets
-
 ### Details
 
-Based on hezecom/slim-starter
+Based on Slim 4 and hezecom/slim-starter
