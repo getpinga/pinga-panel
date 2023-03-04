@@ -34,4 +34,14 @@ class HomeController extends Controller
         }
         return $response->withHeader('Location', '/dashboard')->withStatus(302);
     }
+	
+    public function avatar(Request $request, Response $response)
+    {
+        $avatar = new \LasseRafn\InitialAvatarGenerator\InitialAvatar();
+        $stream = $avatar->name($_SESSION['auth_username'])->length(2)->fontSize(0.5)->size(96)->background('#206bc4')->color('#fff')->generate()->stream('png', 100);
+        $psr17Factory = new \Nyholm\Psr7\Factory\Psr17Factory();
+        $psrResponse = $psr17Factory->createResponse(200)->withBody($stream);
+
+        return $psrResponse;
+    }
 }
