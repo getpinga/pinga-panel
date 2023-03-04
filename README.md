@@ -19,7 +19,7 @@ Thanks to its rigorous testing and emphasis on quality and reliability, the Ping
 | Category | Package | Integrated | Alternative | Integrated |
 | --- | --- | --- | --- | --- |
 | Routing | [slim/slim](https://packagist.org/packages/slim/slim) | ✅ | [phpleague/route](https://packagist.org/packages/league/route) | ❌ |
-| Authentication | [pinga/auth](https://packagist.org/packages/pinga/auth) | ✅ | N/A | ❌ |
+| Authentication | [pinga/auth](https://packagist.org/packages/pinga/auth) | ✅ | [jasny/auth](https://packagist.org/packages/jasny/auth) | ❌ |
 | Storage | [league/flysystem](https://packagist.org/packages/league/flysystem) | ❌ | N/A | ❌ |
 | Database | [pinga/db](https://packagist.org/packages/pinga/db) | ✅ | Swoole\Coroutine\MySQL/PostgreSQL<br>[scrawler/arca](https://packagist.org/packages/scrawler/arca) (Swoole)<br>Swow (PDO) | ❌ | ❌ |
 | DI | [php-di/php-di](https://packagist.org/packages/php-di/php-di) | ✅ | N/A | ❌ |
@@ -31,7 +31,7 @@ Thanks to its rigorous testing and emphasis on quality and reliability, the Ping
 | Data validation | [wixel/gump](https://packagist.org/packages/wixel/gump) | ❌ | N/A | ❌ |
 | Configuration files | [vlucas/phpdotenv](https://packagist.org/packages/vlucas/phpdotenv) | ✅ | N/A | ❌ |
 | Cookies | [pinga/cookie](https://packagist.org/packages/pinga/cookie) | ✅ | [dflydev/dflydev-fig-cookies](https://packagist.org/packages/dflydev/dflydev-fig-cookies) | ❌ |
-| Session | [pinga/cookie](https://packagist.org/packages/pinga/cookie) | ✅ | [compwright/php-session](compwright/php-session) | ❌ |
+| Session | [pinga/cookie](https://packagist.org/packages/pinga/cookie) | ✅ | [compwright/php-session](compwright/php-session)<br>[neoflow/session](neoflow/session) | ❌ |
 | Cache | [kodus/file-cache](https://packagist.org/packages/kodus/file-cache)<br>[matthiasmullie/scrapbook](https://packagist.org/packages/matthiasmullie/scrapbook) | ❌ | [scrawler/swoole-cache](https://packagist.org/packages/scrawler/swoole-cache)<br>[phoole/cache](https://packagist.org/packages/phoole/cache) | ❌ |
 | 2FA | [robthree/twofactorauth](https://packagist.org/packages/robthree/twofactorauth) | ❌ | N/A | ❌ |
 | SSL Management | [Acme PHP](https://acmephp.github.io/) | ❌ | N/A | ❌ |
