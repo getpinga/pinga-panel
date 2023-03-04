@@ -28,7 +28,8 @@
         "phpmailer/phpmailer": "^6.7.1",
         "filp/whoops": "^2.14.6",
         "imefisto/psr-swoole-native": "^1.1",
-        "chubbyphp/chubbyphp-static-file": "^1.2"
+        "chubbyphp/chubbyphp-static-file": "^1.2",
+        "lasserafn/php-initial-avatar-generator": "^4.2"
     },
     "autoload": {
     	"psr-4": {
