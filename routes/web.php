@@ -28,6 +28,7 @@ $app->group('', function ($route) {
 $app->group('', function ($route) {
     $route->get('/dashboard', HomeController::class .':dashboard')->setName('home');
     $route->get('/mode', HomeController::class .':mode')->setName('mode');
+    $route->get('/avatar', HomeController::class .':avatar')->setName('avatar');
     $route->get('/logout', AuthController::class . ':logout')->setName('logout');
     $route->get('/change-password', PasswordController::class . ':createChangePassword')->setName('change.password');
     $route->post('/change-password', PasswordController::class . ':changePassword');
