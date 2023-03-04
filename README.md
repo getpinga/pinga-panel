@@ -27,14 +27,14 @@ Thanks to its rigorous testing and emphasis on quality and reliability, the Ping
 | Logging | [monolog/monolog](https://packagist.org/packages/monolog/monolog)<br>[wyrihaximus/monolog-formatted-psr-handler](https://packagist.org/packages/wyrihaximus/monolog-formatted-psr-handler) | ✅ | N/A | ❌ |
 | Templates | [twig/twig](https://packagist.org/packages/twig/twig) | ✅ | [league/plates](https://packagist.org/packages/league/plates) | ❌ |
 | Menu | [twig/twig](https://packagist.org/packages/twig/twig) | ✅ | [spatie/menu](https://packagist.org/packages/spatie/menu) | ❌ |
-| Forms | [jarzon/form](https://packagist.org/packages/jarzon/form) | ❌ | ❌ | ❌ |
-| Data validation | [wixel/gump](https://packagist.org/packages/wixel/gump) | ❌ | ❌ | ❌ |
+| Forms | [jarzon/form](https://packagist.org/packages/jarzon/form) | ❌ | N/A | ❌ |
+| Data validation | [wixel/gump](https://packagist.org/packages/wixel/gump) | ❌ | N/A | ❌ |
 | Configuration files | [vlucas/phpdotenv](https://packagist.org/packages/vlucas/phpdotenv) | ✅ | N/A | ❌ |
 | Cookies | [pinga/cookie](https://packagist.org/packages/pinga/cookie) | ✅ | [dflydev/dflydev-fig-cookies](https://packagist.org/packages/dflydev/dflydev-fig-cookies) | ❌ |
 | Session | [pinga/cookie](https://packagist.org/packages/pinga/cookie) | ✅ | [compwright/php-session](compwright/php-session) | ❌ |
 | Cache | [kodus/file-cache](https://packagist.org/packages/kodus/file-cache)<br>[matthiasmullie/scrapbook](https://packagist.org/packages/matthiasmullie/scrapbook) | ❌ | [scrawler/swoole-cache](https://packagist.org/packages/scrawler/swoole-cache)<br>[phoole/cache](https://packagist.org/packages/phoole/cache) | ❌ |
 | 2FA | [robthree/twofactorauth](https://packagist.org/packages/robthree/twofactorauth) | ❌ | N/A | ❌ |
-| SSL Management | [Acme PHP](https://acmephp.github.io/) | ❌ | ❌ | ❌ |
+| SSL Management | [Acme PHP](https://acmephp.github.io/) | ❌ | N/A | ❌ |
 | Load balancing | [gonzie/pdoload](https://packagist.org/packages/gonzie/pdoload) | ❌ | N/A | ❌ |
 | Backup | [PHPBU](https://phpbu.de/) | ❌ | [Restic](https://restic.net/) | ❌ |
 | Payment | [league/omnipay](https://packagist.org/packages/league/omnipay) | ❌ | [utopia-php/pay](https://packagist.org/packages/utopia-php/pay) | ❌ |
@@ -46,9 +46,9 @@ Thanks to its rigorous testing and emphasis on quality and reliability, the Ping
 | DB Audit | [setbased/php-audit](https://packagist.org/packages/setbased/php-audit) | ❌ | N/A | ❌ |
 | KYC | [Ballerine](https://github.com/ballerine-io/ballerine) | ❌ | N/A | ❌ |
 | Admin UI | [Tabler](https://github.com/tabler/tabler) | ✅ | ❌ | ❌ |
-| Machine Learning | [MindsDB](https://mindsdb.com/) | ❌ | ❌ | ❌ |
+| Machine Learning | [MindsDB](https://mindsdb.com/) | ❌ | N/A | ❌ |
 | Benchmark | [eypsilon/MycroBench](https://packagist.org/packages/eypsilon/MycroBench) | ❌ | [phpbench/phpbench](https://packagist.org/packages/phpbench/phpbench) | ❌ |
-| Coding Standards | PHP CS | PHP Stan | ❌ | ❌ |
+| Coding Standards | PHP CS | ❌ | PHP Stan | ❌ |
 | Tests | [Pest](https://pestphp.com/) | ❌ | N/A | ❌ |
 | Translation | [utopia-php/locale](https://packagist.org/packages/utopia-php/locale) | ❌ | [delight-im/i18n](https://packagist.org/packages/delight-im/i18n) | ❌ |
 | PSR-14 Event Dispatcher | [leocavalcante/dispatch](https://packagist.org/packages/leocavalcante/dispatch) | ❌ | N/A | ❌ |
