@@ -4,6 +4,10 @@
 
 [![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
 
+<div style="text-align:center">
+  <img src="https://getpinga.com/logo.svg" alt="Pinga" width="200">
+</div>
+
 The Pinga PHP framework is an exceptional toolset that includes a collection of thoroughly tested third-party components, ideal for building robust and scalable web applications and APIs. Designed to optimize and streamline the development process, the framework allows developers to concentrate on delivering high-quality functionality and an exceptional user experience.
 
 One of the standout features of the Pinga PHP framework is its built-in user control panel. This control panel is a comprehensive and user-friendly interface that provides complete management of all aspects of your SaaS applications. With this boilerplate template, it's easy to integrate and implement the control panel into your projects, giving your users a seamless and intuitive experience.
