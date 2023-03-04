@@ -20,4 +20,18 @@ class HomeController extends Controller
         $users = $userModel->getAllUsers();
         return view($response,'admin/dashboard/index.twig', compact('users'));
     }
+	
+    public function mode(Request $request, Response $response)
+    {
+		if ($_SESSION['_screen_mode'] == 'dark') {
+			$_SESSION['_screen_mode'] = 'light';
+		} else {
+			$_SESSION['_screen_mode'] = 'dark';
+		}
+        $referer = $request->getHeaderLine('Referer');
+        if (!empty($referer)) {
+            return $response->withHeader('Location', $referer)->withStatus(302);
+        }
+        return $response->withHeader('Location', '/dashboard')->withStatus(302);
+    }
 }
