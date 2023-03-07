@@ -258,16 +258,16 @@ class Auth
         $auth = self::$auth;
         try {
             $auth->changePassword($oldPassword, $newPassword);
-            redirect()->route('home')->with('success','Password has been changed');
+            redirect()->route('profile')->with('success','Password has been changed');
         }
         catch (NotLoggedInException $e) {
-            redirect()->route('change.password')->with('error','You are not logged in');
+            redirect()->route('profile')->with('error','You are not logged in');
         }
         catch (InvalidPasswordException $e) {
-            redirect()->route('change.password')->with('error','Your old password do not match');
+            redirect()->route('profile')->with('error','Your old password do not match');
         }
         catch (TooManyRequestsException $e) {
-            redirect()->route('change.password')->with('error','Too many requests, try again later');
+            redirect()->route('profile')->with('error','Too many requests, try again later');
         }
     }
 
