@@ -32,8 +32,7 @@ $app->group('', function ($route) {
     $route->get('/mode', HomeController::class .':mode')->setName('mode');
     $route->get('/avatar', HomeController::class .':avatar')->setName('avatar');
     $route->get('/logout', AuthController::class . ':logout')->setName('logout');
-    $route->get('/change-password', PasswordController::class . ':createChangePassword')->setName('change.password');
-    $route->post('/change-password', PasswordController::class . ':changePassword');
+    $route->post('/change-password', PasswordController::class . ':changePassword')->setName('change.password');
 })->add(new AuthMiddleware($container));
 
 $app->add(function (Psr\Http\Message\ServerRequestInterface $request, Psr\Http\Server\RequestHandlerInterface $handler) {
