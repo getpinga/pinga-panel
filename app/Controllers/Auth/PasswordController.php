@@ -85,17 +85,6 @@ class PasswordController extends Controller
     /**
      * @param Request $request
      * @param Response $response
-     * @return mixed
-     * @throws \DI\DependencyException
-     * @throws \DI\NotFoundException
-     */
-    public function createChangePassword(Request $request, Response $response){
-        return view($response,'auth/password/change-password.twig');
-    }
-
-    /**
-     * @param Request $request
-     * @param Response $response
      * @throws \Pinga\Auth\AuthError
      */
     public function changePassword(Request $request, Response $response){
