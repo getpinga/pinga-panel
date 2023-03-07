@@ -94,7 +94,7 @@ class PasswordController extends Controller
             'new_password' => v::notEmpty()->stringType()->length(8),
         ]);
         if ($validation->failed()) {
-            redirect()->route('change.password');
+            redirect()->route('profile');
         }
         Auth::changeCurrentPassword($data['old_password'], $data['new_password']);
     }
