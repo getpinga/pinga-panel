@@ -12,26 +12,26 @@
         {{ csrf.field | raw }}
 		  <div class="card-body">
             <h2 class="card-title text-center mb-4">Create new account</h2>
-            <div class="mb-3{{ errors.name ? ' has-error' : '' }}">
+            <div class="mb-3">
               <label class="form-label">User Name</label>
-              <input type="text" name="username" value="{{ old.username }}" class="form-control" placeholder="Enter name">
+              <input type="text" name="username" value="{{ old.username }}" class="form-control{{ errors.name ? ' is-invalid' : '' }}" placeholder="Enter name">
 			  {% if errors.username %}
-			      <span class="hel-block">{{ errors.username | first }}</span>
+			      <small class="form-hint">{{ errors.username | first }}</small>
 			  {% endif %}
             </div>
-            <div class="mb-3{{ errors.email ? ' has-error' : '' }}">
+            <div class="mb-3">
               <label class="form-label">Email address</label>
-              <input type="email" name="email" value="{{ old.email }}" class="form-control" placeholder="Enter email">
+              <input type="email" name="email" value="{{ old.email }}" class="form-control{{ errors.email ? ' is-invalid' : '' }}" placeholder="Enter email">
 			  {% if errors.email %}
-		          <span class="hel-block">{{ errors.email | first }}</span>
+		          <small class="form-hint">{{ errors.email | first }}</small>
 			  {% endif %}
             </div>
             <div class="mb-3">
               <label class="form-label">Password</label>
               <div class="input-group input-group-flat">
-                <input type="password" name="password" class="form-control"  placeholder="Password"  autocomplete="off">
+                <input type="password" name="password" class="form-control{{ errors.password ? ' is-invalid' : '' }}"  placeholder="Password"  autocomplete="off">
 				{% if errors.password %}
-				    <span class="hel-block">{{ errors.password | first }}</span>
+				    <small class="form-hint">{{ errors.password | first }}</small>
 				{% endif %}
                 <span class="input-group-text">
                   <a href="#" class="link-secondary" title="Show password" data-bs-toggle="tooltip"><!-- Download SVG icon from http://tabler-icons.io/i/eye -->
