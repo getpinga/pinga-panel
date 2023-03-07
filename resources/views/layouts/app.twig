@@ -150,12 +150,7 @@
                 </div>
               </a>
               <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                <a href="#" class="dropdown-item">Status</a>
-                <a href="#" class="dropdown-item">Profile</a>
-                <a href="#" class="dropdown-item">Feedback</a>
-                <div class="dropdown-divider"></div>
-                <a href="./settings.html" class="dropdown-item">Settings</a>
-                <a href="{{route('change.password')}}" class="dropdown-item">Change Password</a>
+                <a href="{{route('profile')}}" class="dropdown-item">Profile</a>
                 <a href="{{route('logout')}}" class="dropdown-item">Logout</a>
               </div>
             </div>
@@ -287,6 +282,10 @@
       </div>
     </div>
     <!-- Libs JS -->
-{% include 'partials/js-dash.twig' %}
+{% if app.request.attributes.get('_route') == 'dashboard' %}
+    {% include 'partials/js-dash.twig' %}
+{% else %}
+    {% include 'partials/js.twig' %}
+{% endif %}
   </body>
 </html>
