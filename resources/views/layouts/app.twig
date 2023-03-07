@@ -282,7 +282,7 @@
       </div>
     </div>
     <!-- Libs JS -->
-{% if app.request.attributes.get('_route') == 'dashboard' %}
+{% if route_is('dashboard') %}
     {% include 'partials/js-dash.twig' %}
 {% else %}
     {% include 'partials/js.twig' %}
