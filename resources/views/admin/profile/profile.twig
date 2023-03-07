@@ -29,15 +29,11 @@
                   <div class="card-body">
                     <h4 class="subheader">Settings</h4>
                     <div class="list-group list-group-transparent">
-                      <a href="./settings.html" class="list-group-item list-group-item-action d-flex align-items-center active">My Account</a>
-                      <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">My Notifications</a>
-                      <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">Connected Apps</a>
+                      <a href="{{route('profile')}}" class="list-group-item list-group-item-action d-flex align-items-center active">My Account</a>
+                      <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">Notifications</a>
+                      <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">Security</a>
                       <a href="./settings-plan.html" class="list-group-item list-group-item-action d-flex align-items-center">Plans</a>
                       <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">Billing & Invoices</a>
-                    </div>
-                    <h4 class="subheader mt-4">Experience</h4>
-                    <div class="list-group list-group-transparent">
-                      <a href="#" class="list-group-item list-group-item-action">Give Feedback</a>
                     </div>
                   </div>
                 </div>
@@ -50,11 +46,19 @@
                     <div class="row g-3">
                       <div class="col-md">
                         <div class="form-label">User Name</div>
-                        <input type="text" class="form-control" value="{{ username }}" readonly>
+						<div class="form-control-plaintext">{{ username }}</div>
                       </div>
                       <div class="col-md">
                         <div class="form-label">Email</div>
-                        <input type="text" class="form-control" value="{{ email }}" readonly>
+						<div class="form-control-plaintext">{{ email }}</div>
+                      </div>
+                      <div class="col-md">
+                        <div class="form-label">Status</div>
+                        <span class="badge bg-green mt-2">{{ status }}</span>
+                      </div>
+                      <div class="col-md">
+                        <div class="form-label">Role</div>
+                        <span class="badge bg-blue mt-2">{{ role }}</span>
                       </div>
                     </div>
                     <h3 class="card-title mt-4">Change Password</h3>
@@ -77,11 +81,11 @@
                   </div>
                   <div class="card-footer bg-transparent mt-auto">
                     <div class="btn-list justify-content-end">
-                      <a href="#" class="btn">
-                        Cancel
+                      <a href="{{route('home')}}" class="btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-back" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 11l-4 4l4 4m-4 -4h11a4 4 0 0 0 0 -8h-1"></path></svg> Back
                       </a>
                       <button type="submit" class="btn btn-primary">
-                        Submit
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-refresh" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4"></path><path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4"></path></svg> Update
                       </button>
                     </div>
                   </div>
