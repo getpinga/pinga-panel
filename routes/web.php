@@ -2,6 +2,7 @@
 use App\Controllers\Auth\AuthController;
 use App\Controllers\Auth\PasswordController;
 use App\Controllers\HomeController;
+use App\Controllers\ProfileController;
 use App\Middleware\AuthMiddleware;
 use App\Middleware\GuestMiddleware;
 use Slim\Exception\HttpNotFoundException;
@@ -27,6 +28,7 @@ $app->group('', function ($route) {
 
 $app->group('', function ($route) {
     $route->get('/dashboard', HomeController::class .':dashboard')->setName('home');
+    $route->get('/profile', ProfileController::class .':profile')->setName('profile');
     $route->get('/mode', HomeController::class .':mode')->setName('mode');
     $route->get('/avatar', HomeController::class .':avatar')->setName('avatar');
     $route->get('/logout', AuthController::class . ':logout')->setName('logout');
