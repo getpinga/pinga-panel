@@ -78,6 +78,12 @@ $container->set('view', function ($container) {
         return route($name);
     });
     $view->getEnvironment()->addFunction($route);
+    
+	// Define the route_is function
+	$routeIs = new \Twig\TwigFunction('route_is', function ($routeName) {
+		return strpos($_SERVER['REQUEST_URI'], $routeName) !== false;
+	});
+	$view->getEnvironment()->addFunction($routeIs);
 
     //assets
     $assets = new TwigFunction('assets', function ($location) {
