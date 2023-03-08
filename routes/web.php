@@ -29,6 +29,10 @@ $app->group('', function ($route) {
 $app->group('', function ($route) {
     $route->get('/dashboard', HomeController::class .':dashboard')->setName('home');
     $route->get('/profile', ProfileController::class .':profile')->setName('profile');
+    $route->get('/profile/notifications', ProfileController::class .':notifications')->setName('notifications');
+    $route->get('/profile/security', ProfileController::class .':security')->setName('security');
+    $route->get('/profile/plans', ProfileController::class .':plans')->setName('plans');
+    $route->get('/profile/invoices', ProfileController::class .':invoices')->setName('invoices');
     $route->get('/mode', HomeController::class .':mode')->setName('mode');
     $route->get('/avatar', HomeController::class .':avatar')->setName('avatar');
     $route->get('/logout', AuthController::class . ':logout')->setName('logout');
