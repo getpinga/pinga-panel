@@ -1,6 +1,6 @@
 {% extends "layouts/app.twig" %}
 
-{% block title %}Profile{% endblock %}
+{% block title %}Security{% endblock %}
 
 {% block content %}
       <div class="page-wrapper">
@@ -41,7 +41,7 @@
                   <div class="card-body">
 				<form action="{{route('change.password')}}" name="register" method="post">
 					{{ csrf.field | raw }}
-                    <h2 class="mb-4">My Account</h2>
+                    <h2 class="mb-4">Security</h2>
                     <h3 class="card-title">Profile Details</h3>
                     <div class="row g-3">
                       <div class="col-md">
