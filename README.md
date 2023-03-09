@@ -32,7 +32,7 @@ Thanks to its rigorous testing and emphasis on quality and reliability, the Ping
 | Configuration files | [vlucas/phpdotenv](https://packagist.org/packages/vlucas/phpdotenv) | ✅ | N/A | ❌ |
 | Cookies | [pinga/cookie](https://packagist.org/packages/pinga/cookie) | ✅ | [dflydev/dflydev-fig-cookies](https://packagist.org/packages/dflydev/dflydev-fig-cookies) | ❌ |
 | Session | [pinga/session](https://packagist.org/packages/pinga/session) | ✅ | [compwright/php-session](compwright/php-session)<br>[neoflow/session](neoflow/session) | ❌ |
-| Cache | [kodus/file-cache](https://packagist.org/packages/kodus/file-cache)<br>[matthiasmullie/scrapbook](https://packagist.org/packages/matthiasmullie/scrapbook) | ❌ | [scrawler/swoole-cache](https://packagist.org/packages/scrawler/swoole-cache)<br>[phoole/cache](https://packagist.org/packages/phoole/cache) | ❌ |
+| Cache | [pinga/cache](https://github.com/getpinga/cache) | ❌ | [matthiasmullie/scrapbook](https://packagist.org/packages/matthiasmullie/scrapbook) | ❌ |
 | 2FA | [robthree/twofactorauth](https://packagist.org/packages/robthree/twofactorauth) | ❌ | N/A | ❌ |
 | SSL Management | [Acme PHP](https://acmephp.github.io/) | ❌ | N/A | ❌ |
 | Load balancing | [gonzie/pdoload](https://packagist.org/packages/gonzie/pdoload) | ❌ | N/A | ❌ |
