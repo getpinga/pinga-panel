@@ -31,7 +31,7 @@ Thanks to its rigorous testing and emphasis on quality and reliability, the Ping
 | Data validation | [wixel/gump](https://packagist.org/packages/wixel/gump) | ❌ | N/A | ❌ |
 | Configuration files | [vlucas/phpdotenv](https://packagist.org/packages/vlucas/phpdotenv) | ✅ | N/A | ❌ |
 | Cookies | [pinga/cookie](https://packagist.org/packages/pinga/cookie) | ✅ | [dflydev/dflydev-fig-cookies](https://packagist.org/packages/dflydev/dflydev-fig-cookies) | ❌ |
-| Session | [pinga/cookie](https://packagist.org/packages/pinga/cookie) | ✅ | [compwright/php-session](compwright/php-session)<br>[neoflow/session](neoflow/session) | ❌ |
+| Session | [pinga/session](https://packagist.org/packages/pinga/session) | ✅ | [compwright/php-session](compwright/php-session)<br>[neoflow/session](neoflow/session) | ❌ |
 | Cache | [kodus/file-cache](https://packagist.org/packages/kodus/file-cache)<br>[matthiasmullie/scrapbook](https://packagist.org/packages/matthiasmullie/scrapbook) | ❌ | [scrawler/swoole-cache](https://packagist.org/packages/scrawler/swoole-cache)<br>[phoole/cache](https://packagist.org/packages/phoole/cache) | ❌ |
 | 2FA | [robthree/twofactorauth](https://packagist.org/packages/robthree/twofactorauth) | ❌ | N/A | ❌ |
 | SSL Management | [Acme PHP](https://acmephp.github.io/) | ❌ | N/A | ❌ |
