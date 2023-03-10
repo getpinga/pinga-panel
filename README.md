@@ -50,7 +50,7 @@ Thanks to its rigorous testing and emphasis on quality and reliability, the Ping
 | Benchmark | [eypsilon/MycroBench](https://packagist.org/packages/eypsilon/MycroBench) | ❌ | [phpbench/phpbench](https://packagist.org/packages/phpbench/phpbench) | ❌ |
 | Coding Standards | PHP CS | ❌ | PHP Stan | ❌ |
 | Tests | [Pest](https://pestphp.com/) | ❌ | N/A | ❌ |
-| Translation | [utopia-php/locale](https://packagist.org/packages/utopia-php/locale) | ❌ | [delight-im/i18n](https://packagist.org/packages/delight-im/i18n) | ❌ |
+| Translation | [pinga/locale](https://packagist.org/packages/pinga/locale) | ❌ | [utopia-php/locale](https://packagist.org/packages/utopia-php/locale) | ❌ |
 | PSR-14 Event Dispatcher | [leocavalcante/dispatch](https://packagist.org/packages/leocavalcante/dispatch) | ❌ | N/A | ❌ |
 
 ### Installation
