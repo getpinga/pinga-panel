@@ -1,9 +1,9 @@
 {
-    "name": "pinga/pinga",
+    "name": "pinga/pinga-panel",
     "description": "Pinga Framework Boilerplate",
     "type": "project",
     "keywords": ["slim", "slim 4", "skeleton", "authentication", "template", "orm","pinga"],
-    "homepage": "https://github.com/getpinga/pinga",
+    "homepage": "https://github.com/getpinga/pinga-panel",
     "license": "MIT",
     "authors": [
         {
