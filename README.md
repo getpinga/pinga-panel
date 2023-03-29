@@ -21,7 +21,7 @@ Thanks to its rigorous testing and emphasis on quality and reliability, the Ping
 | Routing | [slim/slim](https://packagist.org/packages/slim/slim) | ✅ | [phpleague/route](https://packagist.org/packages/league/route) | ❌ |
 | Authentication | [pinga/auth](https://packagist.org/packages/pinga/auth) | ✅ | [jasny/auth](https://packagist.org/packages/jasny/auth) | ❌ |
 | Storage | [league/flysystem](https://packagist.org/packages/league/flysystem) | ❌ | N/A | ❌ |
-| Database | [pinga/db](https://packagist.org/packages/pinga/db) | ✅ | Swoole\Coroutine\MySQL/PostgreSQL<br>[scrawler/arca](https://packagist.org/packages/scrawler/arca) (Swoole)<br>Swow (PDO) | ❌ | ❌ |
+| Database | [pinga/db](https://packagist.org/packages/pinga/db) | ✅ | [pinga/db-swoole](https://github.com/getpinga/db-swoole)<br>[pinga/db-pool](https://github.com/getpinga/db-pool) | ✅ | ❌ |
 | DI | [php-di/php-di](https://packagist.org/packages/php-di/php-di) | ✅ | N/A | ❌ |
 | PSR-7/17 | [nyholm/psr7](https://packagist.org/packages/nyholm/psr7) | ✅ | N/A | ❌ |
 | Logging | [monolog/monolog](https://packagist.org/packages/monolog/monolog)<br>[wyrihaximus/monolog-formatted-psr-handler](https://packagist.org/packages/wyrihaximus/monolog-formatted-psr-handler) | ✅ | N/A | ❌ |
