@@ -71,7 +71,11 @@ $container->set('view', function ($container) {
         'user' => $container->get('auth')->user(),
     ]);
     $view->getEnvironment()->addGlobal('flash', $container->get('flash'));   
-    $view->getEnvironment()->addGlobal('screen_mode', $_SESSION['_screen_mode']);
+    if (isset($_SESSION['_screen_mode'])) {
+        $view->getEnvironment()->addGlobal('screen_mode', $_SESSION['_screen_mode']);
+    } else {
+        $view->getEnvironment()->addGlobal('screen_mode', 'light');
+    }
 
     //route
     $route = new TwigFunction('route', function ($name) {
