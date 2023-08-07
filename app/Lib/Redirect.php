@@ -41,7 +41,7 @@ class Redirect
 
 	public function redirect()
 	{
-		if (function_exists('swoole_version')) {
+		if (getenv('SWOOLE_ENABLED')) {
 			// Running in Swoole
 			if (!$this->response->isSent()) {
 				$this->response = $this->response
@@ -54,7 +54,7 @@ class Redirect
 			}
 			return $this->response;
 		} else {
-			// Running in nginx
+			// Running in nginx/caddy/etc
 			if (headers_sent() === false) {
 				header('Location: ' . $this->name, true, $this->status);
 				exit;
